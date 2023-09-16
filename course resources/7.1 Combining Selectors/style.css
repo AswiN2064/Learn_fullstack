@@ -1,1 +1,51 @@
 /* Write your code here: */
+/* Grouping combiners */
+h1,h2{
+    color: blueviolet;
+}
+
+/* --------------------------------- */
+
+/* Child Combiners */
+/* selector (Parent) > selector(Child) {
+    color: firebrick;
+} */
+div > p {
+    color: firebrick;
+}
+
+/* --------------------------------- */
+
+/* Descendant Combiners */
+
+/* selector(ancestor) selector(descendant) {
+    color: firebrick;
+}*/
+.box .list{
+    color: blue;
+}
+
+/* -------------------------------- */
+
+/* Chaining selectors==>apply where all the selectors are true */
+
+/* selectorselector{
+    color : seagreen;
+} */
+/* tagname#id.class.class{.....} */
+
+li.done{
+    color : seagreen;
+}
+
+/* ------------------------------- */
+
+/* combining combiners */
+
+/* selector(ancestor) selectorselector(Chain){
+    do something;
+} */
+
+ul p.done{
+    font-size: 0.5rem;
+}
