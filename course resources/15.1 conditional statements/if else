@@ -1,0 +1,8 @@
+var a = Math.random();
+a = Math.round(a);
+
+if (a === 1) {
+    console.log("lights on..!");
+} else {
+    console.log("lights off..!");
+}
